@@ -27,7 +27,24 @@
 .App-link {
   color: #61dafb;
 }
-
+.carousel-boy {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 500px;
+  height: 500px;
+}
+.left-arrow {
+  align-self: center;
+}
+.right-arrow {
+  align-self: center;
+}
+.load-progress {
+  position: absolute;
+  text-align: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
